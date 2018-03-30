@@ -1,0 +1,28 @@
+
+.gutter {
+display: none;
+}
+
+.present .syntaxhighlighter .comments,
+.present .syntaxhighlighter .variable,
+.present .syntaxhighlighter .keyword,
+.present .syntaxhighlighter .string,
+.present .syntaxhighlighter .functions,
+.present .syntaxhighlighter .plain
+ {
+/* margin: 0 !important; */
+/* margin-bottom: 100px; */
+color: white !important;
+}
+
+.present .syntaxhighlighter .js,
+.present .syntaxhighlighter .html,
+.present .syntaxhighlighter .php {
+font-size: 0.68em !important;
+letter-spacing: -4px !important;
+}
+
+.present .syntaxhighlighter table td.code .line {
+padding: 0 !important;
+}
+
