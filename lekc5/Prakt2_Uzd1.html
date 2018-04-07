@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Praktiskais darbs 2: Uzdevums 1</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<style>
+.ordering ol {
+    counter-reset: item;
+}
+.ordering ol li {
+    display: block;
+    position: relative;
+}
+.ordering ol li:before {
+    content: counters(item, ".")".";
+    counter-increment: item;
+    position: absolute;
+    margin-right: 100%;
+    right: 10px; /* space between number and text */
+</style>
+
+</head>
+<body>
+
+<a href="../">Atpakaļ</a>
+
+<h3>Mērķis: Javascript pamatu apgūšana</h3>
+
+<h4>Uzdevums 1: Izveidot ciklu</h4>
+<div class="ordering">
+<ol>
+<li>Izveidojiet JavaScript programmu, kas:
+<ol>
+<li>Izvada skaitļus no 1 līdz 100.
+<li>Bet, ja skaitlis dalās 3, tad izvada "Fizz". Ja skaitlis dalās ar 5, izvada "Buzz".
+<li>Ja skaitlis dalas gan ar 3, gan ar 5 - izvada FizzBuzz.
+<li><em>Izvadei uz ekrāna izmantojiet funkciju <code>document.writeln()</code></em>
+<li><em>Izmantojiet kādu no cikla operatoriem - "for", "while" "do ... while" utt.</em>
+</ol>
+</li>
+</ol>
+</div>
+
+</body>
+</html>
